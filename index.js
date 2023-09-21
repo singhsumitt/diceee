@@ -19,7 +19,7 @@ if(randomDice1>randomDice2){
    document.querySelector("h1").innerHTML = "player1 Wins" ;
 }
 else if (randomDice1<randomDice2){
-    document.querySelector("h1").innerHTML= "player 2 Lost";
+    document.querySelector("h1").innerHTML= "player 2 Wins";
 }
 else{
     document.querySelector("h1").innerHTML="LOL";
